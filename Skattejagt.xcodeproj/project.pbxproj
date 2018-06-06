@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A853E9396E7F9A59423D6C /* Pods_SkattejagtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */; };
+		724D6FE0D72368F60CA759A7 /* Pods_SkattejagtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */; };
+		C9BF06768E2A64118C9C1AAF /* Pods_Skattejagt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */; };
+		CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
+		CD4C47CC20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
+		CD4C47CD20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
 		CD908C4720998C9A0039091D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C4620998C9A0039091D /* AppDelegate.swift */; };
 		CD908C4920998C9A0039091D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C4820998C9A0039091D /* ViewController.swift */; };
 		CD908C4C20998C9A0039091D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4A20998C9A0039091D /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		CD908C5120998C9D0039091D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4F20998C9D0039091D /* LaunchScreen.storyboard */; };
 		CD908C5C20998C9D0039091D /* SkattejagtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C5B20998C9D0039091D /* SkattejagtTests.swift */; };
 		CD908C6720998C9D0039091D /* SkattejagtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C6620998C9D0039091D /* SkattejagtUITests.swift */; };
+		CD908C7620998CE70039091D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD908C7520998CE70039091D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0388AE8039C570E93CCD7B8A /* Pods-Skattejagt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt.release.xcconfig"; sourceTree = "<group>"; };
+		0965EB2FBE4B348ED3B0A42A /* Pods-SkattejagtUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtUITests/Pods-SkattejagtUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skattejagt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400944B8D9BEA20C9D5E8F6B /* Pods-SkattejagtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtTests/Pods-SkattejagtTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A888E9C6BC0DFE3D00E300AF /* Pods-SkattejagtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtTests/Pods-SkattejagtTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB46634FC0E97A032D70A443 /* Pods-SkattejagtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtUITests/Pods-SkattejagtUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8EEFC790773779D6443A207 /* Pods-Skattejagt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD908C4320998C9A0039091D /* Skattejagt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skattejagt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD908C4620998C9A0039091D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD908C4820998C9A0039091D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,7 @@
 		CD908C6220998C9D0039091D /* SkattejagtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkattejagtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD908C6620998C9D0039091D /* SkattejagtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkattejagtUITests.swift; sourceTree = "<group>"; };
 		CD908C6820998C9D0039091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD908C7520998CE70039091D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD908C7620998CE70039091D /* libsqlite3.tbd in Frameworks */,
+				C9BF06768E2A64118C9C1AAF /* Pods_Skattejagt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A853E9396E7F9A59423D6C /* Pods_SkattejagtTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724D6FE0D72368F60CA759A7 /* Pods_SkattejagtUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C4027A491E2E28F43DCD65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8EEFC790773779D6443A207 /* Pods-Skattejagt.debug.xcconfig */,
+				0388AE8039C570E93CCD7B8A /* Pods-Skattejagt.release.xcconfig */,
+				400944B8D9BEA20C9D5E8F6B /* Pods-SkattejagtTests.debug.xcconfig */,
+				A888E9C6BC0DFE3D00E300AF /* Pods-SkattejagtTests.release.xcconfig */,
+				AB46634FC0E97A032D70A443 /* Pods-SkattejagtUITests.debug.xcconfig */,
+				0965EB2FBE4B348ED3B0A42A /* Pods-SkattejagtUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD908C3A20998C9A0039091D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				CD908C5A20998C9D0039091D /* SkattejagtTests */,
 				CD908C6520998C9D0039091D /* SkattejagtUITests */,
 				CD908C4420998C9A0039091D /* Products */,
+				CD908C7420998CE70039091D /* Frameworks */,
+				6C4027A491E2E28F43DCD65A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +140,7 @@
 				CD908C4D20998C9D0039091D /* Assets.xcassets */,
 				CD908C4F20998C9D0039091D /* LaunchScreen.storyboard */,
 				CD908C5220998C9D0039091D /* Info.plist */,
+				CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */,
 			);
 			path = Skattejagt;
 			sourceTree = "<group>";
@@ -125,6 +163,17 @@
 			path = SkattejagtUITests;
 			sourceTree = "<group>";
 		};
+		CD908C7420998CE70039091D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD908C7520998CE70039091D /* libsqlite3.tbd */,
+				0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */,
+				4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */,
+				8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD908C6B20998C9D0039091D /* Build configuration list for PBXNativeTarget "Skattejagt" */;
 			buildPhases = (
+				AE4A1B6C87A3D8475DB442B4 /* [CP] Check Pods Manifest.lock */,
 				CD908C3F20998C9A0039091D /* Sources */,
 				CD908C4020998C9A0039091D /* Frameworks */,
 				CD908C4120998C9A0039091D /* Resources */,
+				6D8D54C4DF7397AA6B6A6AF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD908C6E20998C9D0039091D /* Build configuration list for PBXNativeTarget "SkattejagtTests" */;
 			buildPhases = (
+				1D01A912B6FB5E223ADB7FE5 /* [CP] Check Pods Manifest.lock */,
 				CD908C5320998C9D0039091D /* Sources */,
 				CD908C5420998C9D0039091D /* Frameworks */,
 				CD908C5520998C9D0039091D /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD908C7120998C9D0039091D /* Build configuration list for PBXNativeTarget "SkattejagtUITests" */;
 			buildPhases = (
+				64BFC3CFC03E8176EAE80E4F /* [CP] Check Pods Manifest.lock */,
 				CD908C5E20998C9D0039091D /* Sources */,
 				CD908C5F20998C9D0039091D /* Frameworks */,
 				CD908C6020998C9D0039091D /* Resources */,
@@ -230,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD908C5120998C9D0039091D /* LaunchScreen.storyboard in Resources */,
+				CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 				CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */,
 				CD908C4C20998C9A0039091D /* Main.storyboard in Resources */,
 			);
@@ -239,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4C47CC20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +301,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4C47CD20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D01A912B6FB5E223ADB7FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkattejagtTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BFC3CFC03E8176EAE80E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkattejagtUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8D54C4DF7397AA6B6A6AF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4A1B6C87A3D8475DB442B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skattejagt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD908C3F20998C9A0039091D /* Sources */ = {
@@ -428,15 +561,13 @@
 		};
 		CD908C6C20998C9D0039091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EEFC790773779D6443A207 /* Pods-Skattejagt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +577,13 @@
 		};
 		CD908C6D20998C9D0039091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0388AE8039C570E93CCD7B8A /* Pods-Skattejagt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +593,14 @@
 		};
 		CD908C6F20998C9D0039091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400944B8D9BEA20C9D5E8F6B /* Pods-SkattejagtTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +611,14 @@
 		};
 		CD908C7020998C9D0039091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A888E9C6BC0DFE3D00E300AF /* Pods-SkattejagtTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +629,13 @@
 		};
 		CD908C7220998C9D0039091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB46634FC0E97A032D70A443 /* Pods-SkattejagtUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +646,13 @@
 		};
 		CD908C7320998C9D0039091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0965EB2FBE4B348ED3B0A42A /* Pods-SkattejagtUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
