@@ -27,6 +27,7 @@
 		CD908C5C20998C9D0039091D /* SkattejagtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C5B20998C9D0039091D /* SkattejagtTests.swift */; };
 		CD908C6720998C9D0039091D /* SkattejagtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C6620998C9D0039091D /* SkattejagtUITests.swift */; };
 		CD908C7620998CE70039091D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD908C7520998CE70039091D /* libsqlite3.tbd */; };
+		CDDAF40A20C949D0006795F3 /* skattekort.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDAF40920C949CE006795F3 /* skattekort.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		CD908C6620998C9D0039091D /* SkattejagtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkattejagtUITests.swift; sourceTree = "<group>"; };
 		CD908C6820998C9D0039091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD908C7520998CE70039091D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CDDAF40920C949CE006795F3 /* skattekort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skattekort.png; path = ../../../skattekort.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		82C423A320C9327300C5F62E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CDDAF40920C949CE006795F3 /* skattekort.png */,
 				82C423A420C9336C00C5F62E /* Heli.png */,
 				82C4239D20C930C600C5F62E /* baggrund.png */,
 				82C423AC20C934EE00C5F62E /* Hospital_zoom.png */,
@@ -321,6 +324,7 @@
 				CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */,
 				82C423A920C9343F00C5F62E /* boy.png in Resources */,
 				82C423A020C9322500C5F62E /* Hospital.png in Resources */,
+				CDDAF40A20C949D0006795F3 /* skattekort.png in Resources */,
 				CD908C4C20998C9A0039091D /* Main.storyboard in Resources */,
 				82C423AD20C934EE00C5F62E /* Hospital_zoom.png in Resources */,
 				82C423B120C936A400C5F62E /* xray.png in Resources */,
