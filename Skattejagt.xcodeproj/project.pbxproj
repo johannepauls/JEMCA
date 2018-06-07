@@ -10,14 +10,13 @@
 		18A853E9396E7F9A59423D6C /* Pods_SkattejagtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */; };
 		724D6FE0D72368F60CA759A7 /* Pods_SkattejagtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */; };
 		C9BF06768E2A64118C9C1AAF /* Pods_Skattejagt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */; };
+		CD08CB9520C7E7A300D64B04 /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */; };
 		CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
 		CD4C47CC20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
 		CD4C47CD20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
 		CD908C4720998C9A0039091D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C4620998C9A0039091D /* AppDelegate.swift */; };
-		CD908C4920998C9A0039091D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C4820998C9A0039091D /* ViewController.swift */; };
 		CD908C4C20998C9A0039091D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4A20998C9A0039091D /* Main.storyboard */; };
 		CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4D20998C9D0039091D /* Assets.xcassets */; };
-		CD908C5120998C9D0039091D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4F20998C9D0039091D /* LaunchScreen.storyboard */; };
 		CD908C5C20998C9D0039091D /* SkattejagtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C5B20998C9D0039091D /* SkattejagtTests.swift */; };
 		CD908C6720998C9D0039091D /* SkattejagtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C6620998C9D0039091D /* SkattejagtUITests.swift */; };
 		CD908C7620998CE70039091D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD908C7520998CE70039091D /* libsqlite3.tbd */; };
@@ -50,13 +49,12 @@
 		A888E9C6BC0DFE3D00E300AF /* Pods-SkattejagtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtTests/Pods-SkattejagtTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB46634FC0E97A032D70A443 /* Pods-SkattejagtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtUITests/Pods-SkattejagtUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8EEFC790773779D6443A207 /* Pods-Skattejagt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt.debug.xcconfig"; sourceTree = "<group>"; };
+		CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkatteJagtViewController.swift; sourceTree = "<group>"; };
 		CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD908C4320998C9A0039091D /* Skattejagt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skattejagt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD908C4620998C9A0039091D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD908C4820998C9A0039091D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD908C4B20998C9A0039091D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD908C4D20998C9D0039091D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD908C5020998C9D0039091D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD908C5220998C9D0039091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD908C5720998C9D0039091D /* SkattejagtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkattejagtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD908C5B20998C9D0039091D /* SkattejagtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkattejagtTests.swift; sourceTree = "<group>"; };
@@ -135,10 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				CD908C4620998C9A0039091D /* AppDelegate.swift */,
-				CD908C4820998C9A0039091D /* ViewController.swift */,
+				CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */,
 				CD908C4A20998C9A0039091D /* Main.storyboard */,
 				CD908C4D20998C9D0039091D /* Assets.xcassets */,
-				CD908C4F20998C9D0039091D /* LaunchScreen.storyboard */,
 				CD908C5220998C9D0039091D /* Info.plist */,
 				CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */,
 			);
@@ -282,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD908C5120998C9D0039091D /* LaunchScreen.storyboard in Resources */,
 				CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 				CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */,
 				CD908C4C20998C9A0039091D /* Main.storyboard in Resources */,
@@ -389,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD908C4920998C9A0039091D /* ViewController.swift in Sources */,
 				CD908C4720998C9A0039091D /* AppDelegate.swift in Sources */,
+				CD08CB9520C7E7A300D64B04 /* SkatteJagtViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +428,6 @@
 				CD908C4B20998C9A0039091D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CD908C4F20998C9D0039091D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD908C5020998C9D0039091D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -567,9 +555,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -583,9 +575,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = Skattejagt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.Skattejagt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -600,7 +596,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -618,7 +618,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -635,7 +639,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -652,7 +660,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R5TB6Z53SR;
 				INFOPLIST_FILE = SkattejagtUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dtu.SkattejagtUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

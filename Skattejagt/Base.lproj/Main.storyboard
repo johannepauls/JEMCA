@@ -40,7 +40,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vRh-aK-XKW" kind="push" id="ECb-Wt-rzx"/>
+                                    <segue destination="vRh-aK-XKW" kind="show" id="RmW-bU-e8S"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKATTEJAGT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2T-lh-AuR">
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="0.11994327910958905" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.70247752450000001" green="1" blue="0.84827753699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -137,6 +137,9 @@
                                 <state key="normal" title="Start SKATTEJAGT">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bWp-z7-Fs3" kind="show" id="ec6-Id-1MO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -147,6 +150,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wel-jL-9ry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="133.5832083958021"/>
+        </scene>
+        <!--Skatte Jagt View Controller-->
+        <scene sceneID="T2H-YI-dx4">
+            <objects>
+                <viewController id="bWp-z7-Fs3" customClass="SkatteJagtViewController" customModule="Skattejagt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K2H-Uc-aQ9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOh-bU-qs0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="top" secondItem="K2H-Uc-aQ9" secondAttribute="top" id="4AE-EI-fGk"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="leading" secondItem="WM3-3C-Toz" secondAttribute="leading" id="9KW-Pz-QXF"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="bottom" secondItem="WM3-3C-Toz" secondAttribute="bottom" id="N6c-va-W5J"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="trailing" secondItem="WM3-3C-Toz" secondAttribute="trailing" id="UMb-cm-BVX"/>
+                            <constraint firstItem="WM3-3C-Toz" firstAttribute="bottom" secondItem="fOh-bU-qs0" secondAttribute="bottom" id="WyV-W4-H7D"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="trailing" secondItem="WM3-3C-Toz" secondAttribute="trailing" id="aSi-k4-pLR"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="leading" secondItem="WM3-3C-Toz" secondAttribute="leading" id="g5E-Mn-Rdl"/>
+                            <constraint firstItem="fOh-bU-qs0" firstAttribute="top" secondItem="K2H-Uc-aQ9" secondAttribute="top" id="ojK-gS-Jc1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WM3-3C-Toz"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="fOh-bU-qs0" id="0yU-MF-0cJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShW-NP-qUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1520.8" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
