@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		18A853E9396E7F9A59423D6C /* Pods_SkattejagtTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */; };
 		724D6FE0D72368F60CA759A7 /* Pods_SkattejagtUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */; };
+		82C4239E20C930C700C5F62E /* baggrund.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C4239D20C930C600C5F62E /* baggrund.png */; };
+		82C423A020C9322500C5F62E /* Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C4239F20C9322500C5F62E /* Hospital.png */; };
+		82C423A520C9336C00C5F62E /* Heli.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423A420C9336C00C5F62E /* Heli.png */; };
+		82C423A720C933BA00C5F62E /* Sti.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423A620C933B900C5F62E /* Sti.png */; };
+		82C423A920C9343F00C5F62E /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423A820C9343F00C5F62E /* boy.png */; };
+		82C423AB20C9347E00C5F62E /* Tre.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423AA20C9347E00C5F62E /* Tre.png */; };
+		82C423AD20C934EE00C5F62E /* Hospital_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423AC20C934EE00C5F62E /* Hospital_zoom.png */; };
+		82C423AF20C935C200C5F62E /* stedoskop.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423AE20C935C100C5F62E /* stedoskop.png */; };
+		82C423B120C936A400C5F62E /* xray.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423B020C936A400C5F62E /* xray.png */; };
+		82C423B320C9378B00C5F62E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C423B220C9378A00C5F62E /* back.png */; };
 		C9BF06768E2A64118C9C1AAF /* Pods_Skattejagt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */; };
 		CD08CB9520C7E7A300D64B04 /* SkatteJagtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */; };
-		CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
-		CD4C47CC20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
-		CD4C47CD20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */; };
 		CD908C4720998C9A0039091D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C4620998C9A0039091D /* AppDelegate.swift */; };
 		CD908C4C20998C9A0039091D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4A20998C9A0039091D /* Main.storyboard */; };
 		CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD908C4D20998C9D0039091D /* Assets.xcassets */; };
@@ -45,12 +52,21 @@
 		0C257AB94E9A12E0893ED640 /* Pods_Skattejagt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skattejagt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		400944B8D9BEA20C9D5E8F6B /* Pods-SkattejagtTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtTests/Pods-SkattejagtTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1013F46C54D5E0C5CA4CE4 /* Pods_SkattejagtTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C4239D20C930C600C5F62E /* baggrund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baggrund.png; sourceTree = "<group>"; };
+		82C4239F20C9322500C5F62E /* Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospital.png; sourceTree = "<group>"; };
+		82C423A420C9336C00C5F62E /* Heli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heli.png; sourceTree = "<group>"; };
+		82C423A620C933B900C5F62E /* Sti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sti.png; sourceTree = "<group>"; };
+		82C423A820C9343F00C5F62E /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
+		82C423AA20C9347E00C5F62E /* Tre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tre.png; sourceTree = "<group>"; };
+		82C423AC20C934EE00C5F62E /* Hospital_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospital_zoom.png; sourceTree = "<group>"; };
+		82C423AE20C935C100C5F62E /* stedoskop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stedoskop.png; sourceTree = "<group>"; };
+		82C423B020C936A400C5F62E /* xray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xray.png; sourceTree = "<group>"; };
+		82C423B220C9378A00C5F62E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		8AC5DEA93EFAA85F85238ED0 /* Pods_SkattejagtUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkattejagtUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A888E9C6BC0DFE3D00E300AF /* Pods-SkattejagtTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtTests/Pods-SkattejagtTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB46634FC0E97A032D70A443 /* Pods-SkattejagtUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkattejagtUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkattejagtUITests/Pods-SkattejagtUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8EEFC790773779D6443A207 /* Pods-Skattejagt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skattejagt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skattejagt/Pods-Skattejagt.debug.xcconfig"; sourceTree = "<group>"; };
 		CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkatteJagtViewController.swift; sourceTree = "<group>"; };
-		CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD908C4320998C9A0039091D /* Skattejagt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skattejagt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD908C4620998C9A0039091D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD908C4B20998C9A0039091D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +123,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		82C423A320C9327300C5F62E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82C423A420C9336C00C5F62E /* Heli.png */,
+				82C4239D20C930C600C5F62E /* baggrund.png */,
+				82C423AC20C934EE00C5F62E /* Hospital_zoom.png */,
+				82C423AA20C9347E00C5F62E /* Tre.png */,
+				82C423AE20C935C100C5F62E /* stedoskop.png */,
+				82C423B220C9378A00C5F62E /* back.png */,
+				82C423B020C936A400C5F62E /* xray.png */,
+				82C423A820C9343F00C5F62E /* boy.png */,
+				82C423A620C933B900C5F62E /* Sti.png */,
+				82C4239F20C9322500C5F62E /* Hospital.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CD908C3A20998C9A0039091D = {
 			isa = PBXGroup;
 			children = (
@@ -134,10 +167,10 @@
 			children = (
 				CD908C4620998C9A0039091D /* AppDelegate.swift */,
 				CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */,
+				82C423A320C9327300C5F62E /* Images */,
 				CD908C4A20998C9A0039091D /* Main.storyboard */,
 				CD908C4D20998C9D0039091D /* Assets.xcassets */,
 				CD908C5220998C9D0039091D /* Info.plist */,
-				CD4C47CA20C7CF9700B77AEB /* GoogleService-Info.plist */,
 			);
 			path = Skattejagt;
 			sourceTree = "<group>";
@@ -279,9 +312,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4C47CB20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
+				82C423AB20C9347E00C5F62E /* Tre.png in Resources */,
+				82C4239E20C930C700C5F62E /* baggrund.png in Resources */,
+				82C423A720C933BA00C5F62E /* Sti.png in Resources */,
+				82C423AF20C935C200C5F62E /* stedoskop.png in Resources */,
+				82C423A520C9336C00C5F62E /* Heli.png in Resources */,
+				82C423B320C9378B00C5F62E /* back.png in Resources */,
 				CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */,
+				82C423A920C9343F00C5F62E /* boy.png in Resources */,
+				82C423A020C9322500C5F62E /* Hospital.png in Resources */,
 				CD908C4C20998C9A0039091D /* Main.storyboard in Resources */,
+				82C423AD20C934EE00C5F62E /* Hospital_zoom.png in Resources */,
+				82C423B120C936A400C5F62E /* xray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4C47CC20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4C47CD20C7CF9700B77AEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
