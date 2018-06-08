@@ -27,6 +27,30 @@
 		CD908C5C20998C9D0039091D /* SkattejagtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C5B20998C9D0039091D /* SkattejagtTests.swift */; };
 		CD908C6720998C9D0039091D /* SkattejagtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD908C6620998C9D0039091D /* SkattejagtUITests.swift */; };
 		CD908C7620998CE70039091D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD908C7520998CE70039091D /* libsqlite3.tbd */; };
+		CDA8E4E420C9BA9E00995A23 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E4E320C9BA9E00995A23 /* player.atlas */; };
+		CDA8E4E520C9BA9E00995A23 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E4E320C9BA9E00995A23 /* player.atlas */; };
+		CDA8E4E620C9BA9E00995A23 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E4E320C9BA9E00995A23 /* player.atlas */; };
+		CDA8E50420C9BB1400995A23 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50320C9BB1400995A23 /* CoinSound.mp3 */; };
+		CDA8E50520C9BB1400995A23 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50320C9BB1400995A23 /* CoinSound.mp3 */; };
+		CDA8E50620C9BB1400995A23 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50320C9BB1400995A23 /* CoinSound.mp3 */; };
+		CDA8E50B20C9BB7000995A23 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50720C9BB7000995A23 /* GameScene.sks */; };
+		CDA8E50C20C9BB7000995A23 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50720C9BB7000995A23 /* GameScene.sks */; };
+		CDA8E50D20C9BB7000995A23 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E50720C9BB7000995A23 /* GameScene.sks */; };
+		CDA8E50E20C9BB7000995A23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50820C9BB7000995A23 /* GameViewController.swift */; };
+		CDA8E50F20C9BB7000995A23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50820C9BB7000995A23 /* GameViewController.swift */; };
+		CDA8E51020C9BB7000995A23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50820C9BB7000995A23 /* GameViewController.swift */; };
+		CDA8E51120C9BB7000995A23 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50920C9BB7000995A23 /* GameElements.swift */; };
+		CDA8E51220C9BB7000995A23 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50920C9BB7000995A23 /* GameElements.swift */; };
+		CDA8E51320C9BB7000995A23 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50920C9BB7000995A23 /* GameElements.swift */; };
+		CDA8E51420C9BB7000995A23 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50A20C9BB7000995A23 /* GameScene.swift */; };
+		CDA8E51520C9BB7000995A23 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50A20C9BB7000995A23 /* GameScene.swift */; };
+		CDA8E51620C9BB7000995A23 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E50A20C9BB7000995A23 /* GameScene.swift */; };
+		CDA8E51820C9BE4100995A23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E51720C9BE4100995A23 /* Launch Screen.storyboard */; };
+		CDA8E51920C9BE4100995A23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E51720C9BE4100995A23 /* Launch Screen.storyboard */; };
+		CDA8E51A20C9BE4100995A23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8E51720C9BE4100995A23 /* Launch Screen.storyboard */; };
+		CDA8E52020C9CEE800995A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E51F20C9CEE700995A23 /* ViewController.swift */; };
+		CDA8E52120C9CEE800995A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E51F20C9CEE700995A23 /* ViewController.swift */; };
+		CDA8E52220C9CEE800995A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8E51F20C9CEE700995A23 /* ViewController.swift */; };
 		CDDAF40A20C949D0006795F3 /* skattekort.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDAF40920C949CE006795F3 /* skattekort.png */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +104,14 @@
 		CD908C6620998C9D0039091D /* SkattejagtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkattejagtUITests.swift; sourceTree = "<group>"; };
 		CD908C6820998C9D0039091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD908C7520998CE70039091D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CDA8E4E320C9BA9E00995A23 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = player.atlas; path = ../../../Downloads/Flappy/Flappy/player.atlas; sourceTree = "<group>"; };
+		CDA8E50320C9BB1400995A23 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CoinSound.mp3; path = ../../../Downloads/Flappy/Flappy/CoinSound.mp3; sourceTree = "<group>"; };
+		CDA8E50720C9BB7000995A23 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../Downloads/Flappy/Flappy/GameScene.sks; sourceTree = "<group>"; };
+		CDA8E50820C9BB7000995A23 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../../Downloads/Flappy/Flappy/GameViewController.swift; sourceTree = "<group>"; };
+		CDA8E50920C9BB7000995A23 /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameElements.swift; path = ../../../Downloads/Flappy/Flappy/GameElements.swift; sourceTree = "<group>"; };
+		CDA8E50A20C9BB7000995A23 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../Downloads/Flappy/Flappy/GameScene.swift; sourceTree = "<group>"; };
+		CDA8E51720C9BE4100995A23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CDA8E51F20C9CEE700995A23 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../JEMCA/JEMCA/ViewController.swift; sourceTree = "<group>"; };
 		CDDAF40920C949CE006795F3 /* skattekort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skattekort.png; path = ../../../skattekort.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,12 +200,20 @@
 		CD908C4520998C9A0039091D /* Skattejagt */ = {
 			isa = PBXGroup;
 			children = (
+				CDA8E51F20C9CEE700995A23 /* ViewController.swift */,
 				CD908C4620998C9A0039091D /* AppDelegate.swift */,
+				CDA8E50920C9BB7000995A23 /* GameElements.swift */,
+				CDA8E50720C9BB7000995A23 /* GameScene.sks */,
+				CDA8E50A20C9BB7000995A23 /* GameScene.swift */,
+				CDA8E50820C9BB7000995A23 /* GameViewController.swift */,
 				CD08CB9420C7E7A300D64B04 /* SkatteJagtViewController.swift */,
 				82C423A320C9327300C5F62E /* Images */,
 				CD908C4A20998C9A0039091D /* Main.storyboard */,
+				CDA8E50320C9BB1400995A23 /* CoinSound.mp3 */,
 				CD908C4D20998C9D0039091D /* Assets.xcassets */,
+				CDA8E4E320C9BA9E00995A23 /* player.atlas */,
 				CD908C5220998C9D0039091D /* Info.plist */,
+				CDA8E51720C9BE4100995A23 /* Launch Screen.storyboard */,
 			);
 			path = Skattejagt;
 			sourceTree = "<group>";
@@ -317,8 +357,11 @@
 			files = (
 				82C423AB20C9347E00C5F62E /* Tre.png in Resources */,
 				82C4239E20C930C700C5F62E /* baggrund.png in Resources */,
+				CDA8E51820C9BE4100995A23 /* Launch Screen.storyboard in Resources */,
 				82C423A720C933BA00C5F62E /* Sti.png in Resources */,
 				82C423AF20C935C200C5F62E /* stedoskop.png in Resources */,
+				CDA8E50B20C9BB7000995A23 /* GameScene.sks in Resources */,
+				CDA8E4E420C9BA9E00995A23 /* player.atlas in Resources */,
 				82C423A520C9336C00C5F62E /* Heli.png in Resources */,
 				82C423B320C9378B00C5F62E /* back.png in Resources */,
 				CD908C4E20998C9D0039091D /* Assets.xcassets in Resources */,
@@ -327,6 +370,7 @@
 				CDDAF40A20C949D0006795F3 /* skattekort.png in Resources */,
 				CD908C4C20998C9A0039091D /* Main.storyboard in Resources */,
 				82C423AD20C934EE00C5F62E /* Hospital_zoom.png in Resources */,
+				CDA8E50420C9BB1400995A23 /* CoinSound.mp3 in Resources */,
 				82C423B120C936A400C5F62E /* xray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +379,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8E50520C9BB1400995A23 /* CoinSound.mp3 in Resources */,
+				CDA8E50C20C9BB7000995A23 /* GameScene.sks in Resources */,
+				CDA8E51920C9BE4100995A23 /* Launch Screen.storyboard in Resources */,
+				CDA8E4E520C9BA9E00995A23 /* player.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +390,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8E50620C9BB1400995A23 /* CoinSound.mp3 in Resources */,
+				CDA8E50D20C9BB7000995A23 /* GameScene.sks in Resources */,
+				CDA8E51A20C9BE4100995A23 /* Launch Screen.storyboard in Resources */,
+				CDA8E4E620C9BA9E00995A23 /* player.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +481,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8E52020C9CEE800995A23 /* ViewController.swift in Sources */,
+				CDA8E51420C9BB7000995A23 /* GameScene.swift in Sources */,
+				CDA8E51120C9BB7000995A23 /* GameElements.swift in Sources */,
 				CD908C4720998C9A0039091D /* AppDelegate.swift in Sources */,
+				CDA8E50E20C9BB7000995A23 /* GameViewController.swift in Sources */,
 				CD08CB9520C7E7A300D64B04 /* SkatteJagtViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +494,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8E52120C9CEE800995A23 /* ViewController.swift in Sources */,
+				CDA8E51220C9BB7000995A23 /* GameElements.swift in Sources */,
+				CDA8E50F20C9BB7000995A23 /* GameViewController.swift in Sources */,
+				CDA8E51520C9BB7000995A23 /* GameScene.swift in Sources */,
 				CD908C5C20998C9D0039091D /* SkattejagtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +506,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8E52220C9CEE800995A23 /* ViewController.swift in Sources */,
+				CDA8E51320C9BB7000995A23 /* GameElements.swift in Sources */,
+				CDA8E51020C9BB7000995A23 /* GameViewController.swift in Sources */,
+				CDA8E51620C9BB7000995A23 /* GameScene.swift in Sources */,
 				CD908C6720998C9D0039091D /* SkattejagtUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
